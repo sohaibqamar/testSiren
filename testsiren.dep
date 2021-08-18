@@ -1,0 +1,41 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\stm8s_it.h user\inc\stm8s.h user\inc\stm8s_conf.h  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_uart3.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_uart3.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_tim4.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_tim4.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_spi.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_spi.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_gpio.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_exti.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_exti.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.STM8S_StdPeriph_Driver.STM8S_StdPeriph_Driver\src.libraries\stm8s_stdperiph_driver\src\stm8s_clk.c.Config.0]
+ExternDep= libraries\stm8s_stdperiph_driver\src\stm8s_clk.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h
+
+[Root.User.User\src.user\src\stm8s_it.c.Config.0]
+ExternDep= user\src\stm8s_it.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\stm8s_it.h user\inc\stm8s.h user\inc\stm8s_conf.h  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\main.h
+
+[Root.User.User\src.user\src\main.c.Config.0]
+ExternDep= user\src\main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\main.h user\inc\stm8s.h user\inc\stm8s_conf.h  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\L99PM62drv.h  user\inc\L99PM62drv_Cfg.h
+
+[Root.User.User\src.user\src\lin.c.Config.0]
+ExternDep= user\src\lin.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\stm8s.h user\inc\stm8s_conf.h  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\lin.h  user\inc\main.h
+
+[Root.User.User\src.user\src\l99pm62drv.c.Config.0]
+ExternDep= user\src\l99pm62drv.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\L99PM62drv.h user\inc\L99PM62drv_Cfg.h user\inc\stm8s.h  user\inc\stm8s_conf.h libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\L99PM62drv_AL.h
+
+[Root.User.User\src.user\src\appli.c.Config.0]
+ExternDep= user\src\appli.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  user\inc\stm8s.h user\inc\stm8s_conf.h  libraries\stm8s_stdperiph_driver\inc\stm8s_clk.h  libraries\stm8s_stdperiph_driver\inc\stm8s_exti.h  libraries\stm8s_stdperiph_driver\inc\stm8s_gpio.h  libraries\stm8s_stdperiph_driver\inc\stm8s_spi.h  libraries\stm8s_stdperiph_driver\inc\stm8s_tim4.h  libraries\stm8s_stdperiph_driver\inc\stm8s_uart3.h user\inc\appli.h  user\inc\main.h
